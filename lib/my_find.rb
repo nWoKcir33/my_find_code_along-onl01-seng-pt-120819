@@ -26,3 +26,4 @@ def my_find2(collection)
   nu_array
 end
 
+puts my_find2(collection) {|i| i % 3 == 0 and i % 5 == 0 }
